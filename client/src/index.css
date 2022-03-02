@@ -1,0 +1,40 @@
+.not-found {
+    position: fixed;
+    top:0;
+    width: 100vw;
+    background-color: rgb(221, 228, 235);
+    height: 100vh;
+    justify-content: center;
+    display : flex;
+    align-items: center;
+}
+  .login_hide {
+     position: fixed;
+    top:0;
+    width: 100vw; 
+    background-color: rgb(31, 75, 71); 
+    height: 100vh;
+    justify-content: center;
+    display : flex; 
+    align-items: center;
+}  
+.dashboard_hide {
+    position: fixed;
+    top:0;
+    width: 100vw;
+    background-color: rgb(34, 7, 34);
+    height: 100vh;
+    justify-content: center;
+    display : flex;
+    align-items: center;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  #page-wrap {
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+  
